@@ -8,12 +8,11 @@
     padding: 0;
     font-family: "Playfair Display", serif;
 }
-
 body{
     background-color: #D8B96D;
 }
 .container{
-    height: 90vh;
+    height: 80vh;
     background-color: aliceblue;
     margin: 50px 100px;
     border-radius: 50px;
@@ -32,20 +31,22 @@ body{
     border :5px solid aliceblue;
 }
 .jsImg{
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin-left: 20vw;
     margin-top: 30vh;
 }
 .contText{
     margin: 20vh;
-    font-size: 190px;
+    font-size: 120px;
     margin-left: 0px;
     margin-right: 20vw;
-    margin-top: 34vh;
+    margin-top: 30vh;
 }
 .contDiv1{
-    margin-left: 10vw;
+    margin-left: 1vw;
+    margin-top: -3%;
+
 }
 .contDiv2{
     margin-right: 10vw;
@@ -54,14 +55,12 @@ body{
     margin-left:140px;
 }
 .github:hover{
-    font-size: 150px;
+    font-size: 90px;
 }
 .githubDiv{
-    margin-top: -200px;
+    margin-top: -150px;
 }
-.img2{
-    height: 180px;
-}
+
 .innerCont{
     width: 90%;
     height: 5vh;
@@ -72,10 +71,14 @@ body{
 .container2B{
     display: flex;
 }
+.link{
+    text-decoration: none;
+    color: black;
+}
 .indexText{
     margin-left: 50%;
     padding-top: 2px;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bolder;
     color: rgb(81, 80, 80);
 }
@@ -86,7 +89,7 @@ body{
     height: 80vh;
     background-color: #dcefef;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 }
 .leftInnerCont{
 
@@ -96,47 +99,62 @@ body{
     overflow: scroll;
 }
 .indexBox{
-    width: 18vw;
-    height: 5vh;
+    width: 16vw;
+    height: 4vh;
     border-radius: 20px;
     margin-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 3px;
     background-color: rgba(76, 76, 77, 0.642);
     color: white;
     font-weight: bold;
 }
 .rightCont2{
-    height: 78vh;
-    width: 67vw;
+    height: 74vh;
+    width: 58vw;
     background-color: #dcefef;
     padding: 20px;
     border-radius: 20px;
     margin-left: 1%;
+    overflow: scroll;
 }
-.leftInnerCont::-webkit-scrollbar {
+.rightCont2::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  .leftInnerCont::-webkit-scrollbar {
     display: none; /* Hide the scrollbar */
   }
   .SmallLeftInnerCont{
-    padding: 8px 0px;
-    padding-top: 20px;
-    width: 17vw;
-    height: 5vh;
+    padding: 3px 0px;
+    width: 15vw;
+    height: 4vh;
     background-color: white;
     border-radius: 20px;
     margin-bottom: 20px;
-    margin-left: 11px;
+    margin-left: 10px;
+  }
+  .linkText{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.763);
+    font-weight: bold;
+  }
+  .linkText:hover{
+    color: white;
   }
   .SmallLeftInnerCont:hover{
-    background-color:rgba(76, 76, 77, 0.219); 
+    background-color:rgba(76, 76, 77, 0.288); 
     font-weight: bolder;
     color: white;
   }
   .div1{
     border: 3px solid white;
-    height: 75vh ;
+    height: 68vh ;
     padding: 20px;
   }
   .centerHeading{
-    font-size: 80px;
+    font-size: 30px;
     text-align: center;
   }
+  .div1a{
+    background-color: #D8B96D;
+  }
+  
