@@ -148,13 +148,35 @@ body{
   .div1{
     border: 3px solid white;
     height: 68vh ;
+    /* height: 100%; */
     padding: 20px;
+
   }
   .centerHeading{
     font-size: 30px;
     text-align: center;
   }
   .div1a{
-    background-color: #D8B96D;
+    background-color: #d8ba6d7a;
   }
-  
+  .arrowPng{
+    height: 100px;
+  }
+  .pngAnchor{
+    margin-top: 10px;
+  }
+.pngTag{
+    margin-top: 8px;
+    margin-left: 70%;
+}
+.jsPng{
+    height: 150px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+p{
+    font-weight: bold;
+}
+.contPadding{
+    padding-left: 5%;
+}
