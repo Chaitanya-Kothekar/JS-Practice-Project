@@ -1,0 +1,142 @@
+/* font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+
+body{
+    background-color: #D8B96D;
+}
+.container{
+    height: 90vh;
+    background-color: aliceblue;
+    margin: 50px 100px;
+    border-radius: 50px;
+    border :5px solid aliceblue;
+    display: flex;
+    justify-content: space-between;
+
+    /* box-shadow: 10px 4px 0px rgba(192, 192, 192, 0.466); */
+
+}
+.container2{
+    height: 90vh;
+    background-color: aliceblue;
+    margin: 50px 100px;
+    border-radius: 50px;
+    border :5px solid aliceblue;
+}
+.jsImg{
+    height: 300px;
+    width: 300px;
+    margin-left: 20vw;
+    margin-top: 30vh;
+}
+.contText{
+    margin: 20vh;
+    font-size: 190px;
+    margin-left: 0px;
+    margin-right: 20vw;
+    margin-top: 34vh;
+}
+.contDiv1{
+    margin-left: 10vw;
+}
+.contDiv2{
+    margin-right: 10vw;
+}
+.github{
+    margin-left:140px;
+}
+.github:hover{
+    font-size: 150px;
+}
+.githubDiv{
+    margin-top: -200px;
+}
+.img2{
+    height: 180px;
+}
+.innerCont{
+    width: 90%;
+    height: 5vh;
+    background-color: #dcefef;
+    border-radius: 20px;
+    margin: 1% 5%;
+}
+.container2B{
+    display: flex;
+}
+.indexText{
+    margin-left: 50%;
+    padding-top: 2px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(81, 80, 80);
+}
+.leftContainer{
+    width: 20vw;
+    border-radius: 20px;
+    margin-left: 2%;
+    height: 80vh;
+    background-color: #dcefef;
+    text-align: center;
+    font-size: 40px;
+}
+.leftInnerCont{
+
+    height: 72vh;
+    padding: 5%;
+    margin:10px;
+    overflow: scroll;
+}
+.indexBox{
+    width: 18vw;
+    height: 5vh;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    background-color: rgba(76, 76, 77, 0.642);
+    color: white;
+    font-weight: bold;
+}
+.rightCont2{
+    height: 78vh;
+    width: 67vw;
+    background-color: #dcefef;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 1%;
+}
+.leftInnerCont::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  .SmallLeftInnerCont{
+    padding: 8px 0px;
+    padding-top: 20px;
+    width: 17vw;
+    height: 5vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 11px;
+  }
+  .SmallLeftInnerCont:hover{
+    background-color:rgba(76, 76, 77, 0.219); 
+    font-weight: bolder;
+    color: white;
+  }
+  .div1{
+    border: 3px solid white;
+    height: 75vh ;
+    padding: 20px;
+  }
+  .centerHeading{
+    font-size: 80px;
+    text-align: center;
+  }
