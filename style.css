@@ -297,3 +297,10 @@ p {
 .nullDiv{
   height: 90vh;
 }
+.objectPng{
+  height:650px;
+  margin-left: 1%;
+}
+.objectDiv{
+  height: 120vh;
+}
