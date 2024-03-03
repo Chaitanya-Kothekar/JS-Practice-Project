@@ -1,181 +1,299 @@
 /* font import */
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Playfair Display", serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
 }
-body{
-    background-color: #D8B96D;
+body {
+  background-color: #d8b96d;
 }
-.container{
-    height: 80vh;
-    background-color: aliceblue;
-    margin: 50px 100px;
-    border-radius: 50px;
-    border :5px solid aliceblue;
-    display: flex;
-    justify-content: space-between;
+.container {
+  height: 80vh;
+  background-color: aliceblue;
+  margin: 50px 100px;
+  border-radius: 50px;
+  border: 5px solid aliceblue;
+  display: flex;
+  justify-content: space-between;
 
-    /* box-shadow: 10px 4px 0px rgba(192, 192, 192, 0.466); */
+  /* box-shadow: 10px 4px 0px rgba(192, 192, 192, 0.466); */
+}
+.fontS{
+  font-family: "Playfair Display", serif;
+}
+.container2 {
+  height: 90vh;
+  background-color: aliceblue;
+  margin: 50px 100px;
+  border-radius: 50px;
+  border: 5px solid aliceblue;
+}
+.jsImg {
+  height: 250px;
+  width: 250px;
+  margin-left: 20vw;
+  margin-top: 30vh;
+}
+.contText {
+  margin: 20vh;
+  font-size: 120px;
+  margin-left: 0px;
+  margin-right: 20vw;
+  margin-top: 30vh;
+}
+.contDiv1 {
+  margin-left: 1vw;
+  margin-top: -3%;
+}
+.contDiv2 {
+  margin-right: 10vw;
+}
+.github {
+  margin-left: 140px;
+}
+.github:hover {
+  font-size: 90px;
+}
+.githubDiv {
+  margin-top: -150px;
+  height: 40px;
+}
 
+.innerCont {
+  width: 90%;
+  height: 5vh;
+  background-color: #dcefef;
+  border-radius: 20px;
+  margin: 1% 5%;
 }
-.container2{
-    height: 90vh;
-    background-color: aliceblue;
-    margin: 50px 100px;
-    border-radius: 50px;
-    border :5px solid aliceblue;
+.container2B {
+  display: flex;
 }
-.jsImg{
-    height: 250px;
-    width: 250px;
-    margin-left: 20vw;
-    margin-top: 30vh;
+.link {
+  text-decoration: none;
+  color: black;
 }
-.contText{
-    margin: 20vh;
-    font-size: 120px;
-    margin-left: 0px;
-    margin-right: 20vw;
-    margin-top: 30vh;
+.indexText {
+  margin-left: 50%;
+  padding-top: 2px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: rgb(81, 80, 80);
 }
-.contDiv1{
-    margin-left: 1vw;
-    margin-top: -3%;
-
+.leftContainer {
+  width: 20vw;
+  border-radius: 20px;
+  margin-left: 2%;
+  height: 80vh;
+  background-color: #dcefef;
+  text-align: center;
+  font-size: 20px;
 }
-.contDiv2{
-    margin-right: 10vw;
+.leftInnerCont {
+  height: 72vh;
+  padding: 5%;
+  margin: 10px;
+  overflow: scroll;
 }
-.github{
-    margin-left:140px;
+.indexBox {
+  width: 16vw;
+  height: 4vh;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding-top: 3px;
+  background-color: rgba(76, 76, 77, 0.642);
+  color: white;
+  font-weight: bold;
 }
-.github:hover{
-    font-size: 90px;
-}
-.githubDiv{
-    margin-top: -150px;
-}
-
-.innerCont{
-    width: 90%;
-    height: 5vh;
-    background-color: #dcefef;
-    border-radius: 20px;
-    margin: 1% 5%;
-}
-.container2B{
-    display: flex;
-}
-.link{
-    text-decoration: none;
-    color: black;
-}
-.indexText{
-    margin-left: 50%;
-    padding-top: 2px;
-    font-size: 20px;
-    font-weight: bolder;
-    color: rgb(81, 80, 80);
-}
-.leftContainer{
-    width: 20vw;
-    border-radius: 20px;
-    margin-left: 2%;
-    height: 80vh;
-    background-color: #dcefef;
-    text-align: center;
-    font-size: 20px;
-}
-.leftInnerCont{
-
-    height: 72vh;
-    padding: 5%;
-    margin:10px;
-    overflow: scroll;
-}
-.indexBox{
-    width: 16vw;
-    height: 4vh;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    padding-top: 3px;
-    background-color: rgba(76, 76, 77, 0.642);
-    color: white;
-    font-weight: bold;
-}
-.rightCont2{
-    height: 74vh;
-    width: 58vw;
-    background-color: #dcefef;
-    padding: 20px;
-    border-radius: 20px;
-    margin-left: 1%;
-    overflow: scroll;
+.rightCont2 {
+  height: 74vh;
+  width: 58vw;
+  background-color: #dcefef;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 1%;
+  overflow: scroll;
+  font-family: "Playfair Display", serif;
 }
 .rightCont2::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar */
-  }
-  .leftInnerCont::-webkit-scrollbar {
-    display: none; /* Hide the scrollbar */
-  }
-  .SmallLeftInnerCont{
-    padding: 3px 0px;
-    width: 15vw;
-    height: 4vh;
-    background-color: white;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-  }
-  .linkText{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.763);
-    font-weight: bold;
-  }
-  .linkText:hover{
-    color: white;
-  }
-  .SmallLeftInnerCont:hover{
-    background-color:rgba(76, 76, 77, 0.288); 
-    font-weight: bolder;
-    color: white;
-  }
-  .div1{
-    border: 3px solid white;
-    height: 68vh ;
-    /* height: 100%; */
-    padding: 20px;
+  display: none; /* Hide the scrollbar */
+}
+.leftInnerCont::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+.SmallLeftInnerCont {
+  padding: 3px 0px;
+  width: 15vw;
+  height: 4vh;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.linkText {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.763);
+  font-weight: bold;
+}
+.linkText:hover {
+  color: white;
+}
+.SmallLeftInnerCont:hover {
+  background-color: rgba(76, 76, 77, 0.288);
+  font-weight: bolder;
+  color: white;
+}
+.div1 {
+  border: 3px solid white;
+  height: 68vh;
+  /* height: 100%; */
+  padding: 20px;
+}
+.centerHeading {
+  font-size: 30px;
+  text-align: center;
+}
 
-  }
-  .centerHeading{
-    font-size: 30px;
-    text-align: center;
-  }
+.arrowPng {
+  height: 100px;
+}
+.arrowAnchor {
+  float: right;
+  margin-top: 8%;
+  margin-right: 10%;
+}
+.pngAnchor {
+  margin-top: 10px;
+}
 
-  .arrowPng{
-    height: 100px;
-  }
-  .pngAnchor{
-    margin-top: 10px;
-  }
-.pngTag{
-    margin-top: 8px;
-    margin-left: 70%;
+.jsPng {
+  height: 150px;
+  margin-left: 40%;
+  margin-top: 10%;
 }
-.jsPng{
-    height: 150px;
-    margin-left: 40%;
-    margin-top: 10%;
+p {
+  font-family: "Poppins";
+  /* font-weight: bold; */
 }
-p{
-    font-family: "Poppins";
-    /* font-weight: bold; */
+.contPadding {
+  padding-left: 5%;
 }
-.contPadding{
-    padding-left: 5%;
+
+.variablePng {
+  height: 200px;
+  margin-left: 20%;
+}
+.variableCont {
+  height: 90vh;
+}
+.varDecPng {
+  height: 450px;
+  margin-left: 15%;
+}
+.varDecDiv {
+  height: 120vh;
+}
+.opvarDecPng {
+  height: 100px;
+  margin-left: 16%;
+}
+.DivCont {
+  float: right;
+}
+.hoistingPng {
+  height: 200px;
+  margin-left: 30%;
+}
+.hoistingDiv {
+  height: 140vh;
+}
+.varRulesDiv {
+  height: 150vh;
+}
+.validCodePng {
+  height: 250px;
+  margin-left: 30%;
+}
+.blockSCopePng{
+    height: 250px;
+    margin-left: 32%;
+}
+.blockSCopeDiv{
+    height: 220vh;
+}
+.funcScopePng{
+    height: 250px;
+    margin-left: 27%;
+}
+.globalPng{
+    height: 250px;
+    margin-left: 27%;
+}
+.stringPng{
+    height: 200px;
+    margin-left: 25%;
+}
+.stringDiv{
+    height: 500vh;
+}
+.charPng{
+    height:250px;
+    margin-left: 12%;
+
+}
+.concatPng{
+    height:250px;
+    margin-left: 5%;
+}
+.indexOfPng{
+    height:250px;
+    margin-left: 2%;
+}
+
+.splicePng{
+    margin-left: 10%;
+    height: 250px;
+
+}
+.subStringPng{
+  height: 210px;
+  margin-left: 11%;
+}
+.replacePng{
+  height: 210px;
+
+}
+.toupperPng{
+  height: 200px;
+  margin-left: 6%;
+}
+.undefinedPng{
+  height: 200px;
+  margin-left:25% ;
+}
+.numberPng{
+  height: 200px;
+  margin-left: 25%;
+}
+.bigIntPng{
+  height: 300px;
+  margin-left: 1%;
+}
+.booleanPng{
+  height: 180px;
+  margin-left: 3%;
+}
+.booleanDiv{
+  height: 90vh;
+}
+.nullPng{
+  height: 400px;
+  margin-left: 19%;
+}
+.nullDiv{
+  height: 90vh;
 }

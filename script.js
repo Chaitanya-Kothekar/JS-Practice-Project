@@ -7,9 +7,9 @@ gsap.from(".container",{
     stagger:0.5
 })
 
-gsap.from(".SmallLeftInnerCont",{
-    x:-250,
-    duration:1,
+gsap.from(".indexBox",{
+    y:-250,
+    duration:0.9,
     opacity:0,
     stagger:0.6,
     scrollTrigger:{
@@ -22,7 +22,7 @@ gsap.from(".SmallLeftInnerCont",{
 })
 
 gsap.from(".rightCont2 , .container2 ",{
-    y:-100,
+    y:-70,
     duration:2,
     opacity:0,
     stagger:0.3,
