@@ -415,3 +415,60 @@ p {
 .ifElseDiv{
   height: 100vh;
 }
+.switchPng{
+  height: 500px;
+  margin-left: 25%;
+
+}
+.switchDiv{
+  height: 112vh;
+}
+.exceptionDiv{
+  height: 120vh;
+}
+.throughPng{
+  height: 300px;
+  margin-left: 20%;
+}
+.exceptionPng{
+  height: 390px;
+}
+.exceptionDiv{
+  height: 120vh;
+}
+.expleftDiv{
+  height: 8vh;
+}
+.assignmentPng{
+  height: 400px;
+  margin-left: 12%;
+}
+.assignmentDiv{
+  height: 90vh;
+}
+.compPng{
+  height: 500px;
+  margin-left: 25%;
+}
+.compDiv{
+  height: 90vh;
+}
+.arithmeticPng{
+  height: 500px;
+  margin-left: 15%;
+}
+.arithmeticDiv{
+  height: 90vh;
+}
+.logicalPng{
+  height: 400px;
+  margin-left: 25%;
+
+}
+.logicalDiv{
+  height: 90vh;
+}
+.conactPng{
+  height: 250px;
+  margin-left: 18%;
+}

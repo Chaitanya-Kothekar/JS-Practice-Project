@@ -148,8 +148,32 @@
           <a href="#37" class="leftText linkText">
             <div class="SmallLeftInnerCont">Switch Case</div>
           </a>
-          <a href="#" class="leftText linkText">
-            <div class="SmallLeftInnerCont"></div>
+          <a href="#38" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Exception Handling</div>
+          </a>
+          <a href="#39" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Throw Statement</div>
+          </a>
+          <a href="#40" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Try, Catch, Finally</div>
+          </a>
+          <a href="#41" class="leftText linkText">
+            <div class="SmallLeftInnerCont expleftDiv">Expressions and Operators</div>
+          </a>
+          <a href="#42" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Assignment Operators</div>
+          </a>
+          <a href="#43" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Comparison Operators</div>
+          </a>
+          <a href="#44" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Arithmetic operators</div>
+          </a>
+          <a href="#45" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Logical Operators</div>
+          </a>
+          <a href="#46" class="leftText linkText">
+            <div class="SmallLeftInnerCont">String Operators</div>
           </a>
           <a href="#" class="leftText linkText">
             <div class="SmallLeftInnerCont"></div>
@@ -157,6 +181,7 @@
           <a href="#" class="leftText linkText">
             <div class="SmallLeftInnerCont"></div>
           </a>
+
 
 
 
@@ -711,14 +736,141 @@
         <div id="36" class="div1 ifElseDiv">
           <div class="contPadding">
             <h2 class="centerHeading">If else</h2><br>
-            <p>The if...else statement in JavaScript allows you to execute one block of code if a specified condition is true, and another block of code if the condition is false. It provides an alternative path of execution when the condition is not met.</p><br>
+            <p>The if...else statement in JavaScript allows you to execute one block of code if a specified condition is
+              true, and another block of code if the condition is false. It provides an alternative path of execution
+              when the condition is not met.</p><br>
             <img class="ifElsePng" src="./images/ifelse.png" alt="">
           </div>
         </div>
-        <div id="37" class="div1 ">
+        <div id="37" class="div1 switchDiv">
           <div class="contPadding">
             <h2 class="centerHeading">Switch Case</h2><br>
-            <p>The switch statement evaluates an expression, matching the expression’s value against a series of case clauses, and executes statements after the first case clause with a matching value, until a break statement is encountered. The default clause of a switch statement will be jumped to if no case matches the expression’s value.</p><br>
+            <p>The switch statement evaluates an expression, matching the expression’s value against a series of case
+              clauses, and executes statements after the first case clause with a matching value, until a break
+              statement is encountered. The default clause of a switch statement will be jumped to if no case matches
+              the expression’s value.</p><br>
+            <img class="switchPng" src="./images/switch.png" alt="">
+          </div>
+        </div>
+        <div id="38" class="div1 exceptionDiv ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Exception Handling</h2><br>
+            <p>
+            <h3>try:</h3>
+            <p>This block of code is used to enclose the code that may potentially throw an exception.</p>
+
+            <h3>catch:</h3>
+            <p>This block of code is executed if an exception is thrown within the corresponding try block. It allows
+              you to handle the exception by specifying what actions should be taken.</p>
+
+            <h3>finally:</h3>
+            <p>This block of code is optional and is always executed, regardless of whether an exception was thrown or
+              caught. It is typically used to perform cleanup tasks, such as closing connections or releasing resources.
+            </p>
+
+          </div>
+        </div>
+        <div id="39" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Throw Statement</h2><br>
+            <p>The throw statement in JavaScript is used to manually generate and throw an exception. It allows you to
+              create custom error conditions and interrupt the normal flow of code execution.,<br>
+
+              Here's the basic syntax of the throw statement:</p><br>
+            <h4>throw expression;</h4>
+            <img class="throughPng" src="./images/through.png" alt="">
+          </div>
+        </div>
+        <div id="40" class="div1 exceptionDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Try, Catch, Finally</h2><br>
+            <p>
+              The try, catch, and finally blocks are constructs used for error handling in JavaScript. They allow you to
+              gracefully handle exceptions and perform cleanup operations. Below is an explanation of each:</p><br>
+            <h3>try:</h3>
+            <p>This block of code is used to enclose the code that may potentially throw an exception.</p>
+
+            <h3>catch:</h3>
+            <p>This block of code is executed if an exception is thrown within the corresponding try block. It allows
+              you to handle the exception by specifying what actions should be taken.</p>
+
+            <h3>finally:</h3>
+            <p>This block of code is optional and is always executed, regardless of whether an exception was thrown or
+              caught. It is typically used to perform cleanup tasks, such as closing connections or releasing resources.
+            </p><br><br>
+            <img class="exceptionPng" src="./images/exception.png" alt="">
+
+          </div>
+        </div>
+        <div id="41" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Expressions and Operators</h2><br>
+            <p>At a high level, an expression is a valid unit of code that resolves to a value. There are two types of
+              expressions: those that have side effects (such as assigning values) and those that purely evaluate. The
+              expression x = 7 is an example of the first type. This expression uses the = operator to assign the value
+              seven to the variable x. The expression itself evaluates to 7. The expression 3 + 4 is an example of the
+              second type. This expression uses the + operator to add 3 and 4 together and produces a value, 7. However,
+              if it’s not eventually part of a bigger construct (for example, a variable declaration like const z = 3 +
+              4), its result will be immediately discarded — this is usually a programmer mistake because the evaluation
+              doesn’t produce any effects. As the examples above also illustrate, all complex expressions are joined by
+              operators, such as = and +.</p><br>
+          </div>
+        </div>
+        <div id="42" class="div1 assignmentDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Assignment Operators</h2><br>
+            <p>An assignment operator assigns a value to its left operand based on the value of its right operand. The
+              simple assignment operator is equal (=), which assigns the value of its right operand to its left operand.
+              That is, x = f() is an assignment expression that assigns the value of f() to x.</p><br>
+            <img class="assignmentPng" src="./images/assignment.png" alt="">
+          </div>
+        </div>
+        <div id="43" class="div1 compDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Comparison Operators</h2><br>
+            <p>Comparison operators are the operators that compare values and return true or false. The operators include: >, <, >=, <=, ==, ===, != and !==</p><br>
+            <img class="compPng" src="./images/comparision.png" alt="">
+          </div>
+        </div>
+        <div id="44" class="div1 arithmeticDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Arithmetic operators</h2><br>
+            <p>Arithmetic operators in JavaScript are used to perform mathematical calculations on numeric values. Here are the commonly used arithmetic operators:</p><br>
+            <img class="arithmeticPng" src="./images/Arithmetic.png" alt="">
+          </div>
+        </div>
+        <div id="45" class="div1 logicalDiv ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Logical Operators</h2><br>
+            <p>Logical operators in JavaScript are used to perform logical operations on Boolean values. Here are the commonly used logical operators:</p><br>
+            <img class="logicalPng" src="./images/logical.png" alt="">
+          </div>
+        </div>
+        <div id="46" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">String Operators</h2><br>
+            <p>In JavaScript, string operators are used to perform operations on strings. Here are the commonly used string operators:</p><br>
+            <img class="conactPng" src="./images/concat.png" alt="">
+          </div>
+        </div>
+        <div id="" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading"></h2><br>
+            <p>In addition to the comparison operators, which can be used on string values, the concatenation operator (+) concatenates two string values together, returning another string that is the union of the two operand strings.<br>
+
+              The shorthand assignment operator += can also be used to concatenate strings.</p><br>
+          </div>
+        </div>
+        <div id="" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading"></h2><br>
+            <p></p><br>
+          </div>
+        </div>
+        <div id="" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading"></h2><br>
+            <p></p><br>
           </div>
         </div>
         <div id="" class="div1 ">
