@@ -35,3 +35,4 @@ gsap.from(".rightCont2 , .container2 ",{
     },
 })
 
+

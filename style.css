@@ -304,3 +304,114 @@ p {
 .objectDiv{
   height: 120vh;
 }
+.buitInDiv{
+  height: 200vh;
+}
+.builtInObjPng{
+  height: 600px;
+  width: 400px;
+  margin-left: 25%;
+}
+.typeOfPng{
+  height: 420px;
+  margin-left: 19%;
+}
+.typeOfDiv{
+  height: 90vh;
+}
+.covHeading{
+  height: 8vh;
+}
+.typeConvPng{
+  height: 600px;
+  margin-left: 20%;
+}
+.typeConvDiv{
+  height: 220vh;
+}
+.arraysPng{
+  height:400px ;
+  margin-left: 25%;
+}
+.arraysDiv{
+  height: 90vh;
+}
+
+.explicitConvPng{
+  height: 500px;
+  margin-left: 20%;
+}
+.typeCastPng{
+  height: 500px;
+  margin-left: 8%;
+}
+.typeCastDiv{
+  height:120vh ;
+}
+.jsonPng{
+  height: 580px;
+  margin-left: 20%;
+}
+.jsonDiv{
+  height: 115vh;
+}
+.valueOperator{
+  height: 7.5vh;
+}
+.valueoptDiv{
+  height: 180vh;
+}
+.comparisonPng{
+  height: 600px;
+  margin-left: 25%;
+}
+.comparisonDiv{
+  height: 120vh;
+}
+.forPng{
+  height: 320px;
+  margin-left: 13%;
+}
+.dowhilePng{
+  height: 300px;
+  margin-left: 25%;
+}
+.whilePng{
+  height: 400px;
+  margin-left: 25%;
+}
+.whileDiv{
+  height: 90vh;
+}
+.forINPng{
+  height: 400px;
+  margin-left: 8%;
+}
+.forINDiv{
+  height: 90vh;
+}
+.forofPng{
+  height: 400px;
+  margin-left: 25%;
+}
+.forofDiv{
+  height: 90vh;
+}
+.breakContPng{
+  height: 500px;
+  margin-left: 25%;
+}
+.breakContDiv{
+  height: 90vh;
+}
+.ifPng{
+  height: 300px;
+  margin-left: 25%;
+}
+.ifElsePng{
+  height: 500px;
+  margin-left: 12%;
+}
+.ifElseDiv{
+  height: 100vh;
+}
