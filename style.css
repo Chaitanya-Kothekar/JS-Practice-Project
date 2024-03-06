@@ -472,3 +472,63 @@ p {
   height: 250px;
   margin-left: 18%;
 }
+.conditionPng{
+  height: 300px;
+  margin-left: 15%;
+}
+.commaPng{
+  height: 250px;
+  margin-left: 10%;
+}
+.unaryPng{
+  height: 450px;
+  margin-left: 22%;
+}
+.unaryDiv{
+  height: 90vh;
+}
+.funcPng{
+  height: 650px;
+  margin-left: 15%;
+}
+.funcDiv{
+  height: 120vh;
+}
+.function2{
+  height: 200px;
+  margin-left: 17%;
+}
+.arrowFuncPng{
+  height: 320px;
+  margin-left: 17%;
+}
+.builtFuncPng{
+  height: 600px;
+  margin-left: 25%;
+}
+.builtFuncDiv{
+  height: 120vh;
+}
+.defaultParamPng{
+  height: 300px;
+  margin-left: 18%;
+}
+.restParamPng{
+  height: 300px;
+  margin-left: 20%;
+}
+.setTimeoutPng{
+  height: 300px;
+  margin-left: 20%;
+}
+.setIntervalPng{
+  height: 320px;
+
+}
+.fetch{
+  height: 450px;
+  margin-left: 15%;
+}
+.fetchDiv{
+  height: 90vh;
+}
