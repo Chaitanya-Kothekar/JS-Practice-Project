@@ -21,7 +21,7 @@ gsap.from(".indexBox",{
     },
 })
 
-gsap.from(".rightCont2 , .container2 ",{
+gsap.from(".rightCont2 , .container2 ,.container3 ",{
     y:-70,
     duration:2,
     opacity:0,

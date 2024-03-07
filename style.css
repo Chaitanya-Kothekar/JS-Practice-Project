@@ -3,14 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Playfair Display", serif;
 }
+
 body {
   background-color: #d8b96d;
 }
+
 .container {
   height: 80vh;
   background-color: aliceblue;
@@ -22,9 +25,11 @@ body {
 
   /* box-shadow: 10px 4px 0px rgba(192, 192, 192, 0.466); */
 }
-.fontS{
+
+.fontS {
   font-family: "Playfair Display", serif;
 }
+
 .container2 {
   height: 90vh;
   background-color: aliceblue;
@@ -32,12 +37,14 @@ body {
   border-radius: 50px;
   border: 5px solid aliceblue;
 }
+
 .jsImg {
   height: 250px;
   width: 250px;
   margin-left: 20vw;
   margin-top: 30vh;
 }
+
 .contText {
   margin: 20vh;
   font-size: 120px;
@@ -45,19 +52,24 @@ body {
   margin-right: 20vw;
   margin-top: 30vh;
 }
+
 .contDiv1 {
   margin-left: 1vw;
   margin-top: -3%;
 }
+
 .contDiv2 {
   margin-right: 10vw;
 }
+
 .github {
   margin-left: 140px;
 }
+
 .github:hover {
   font-size: 90px;
 }
+
 .githubDiv {
   margin-top: -150px;
   height: 40px;
@@ -70,13 +82,16 @@ body {
   border-radius: 20px;
   margin: 1% 5%;
 }
+
 .container2B {
   display: flex;
 }
+
 .link {
   text-decoration: none;
   color: black;
 }
+
 .indexText {
   margin-left: 50%;
   padding-top: 2px;
@@ -84,6 +99,7 @@ body {
   font-weight: bolder;
   color: rgb(81, 80, 80);
 }
+
 .leftContainer {
   width: 20vw;
   border-radius: 20px;
@@ -93,12 +109,14 @@ body {
   text-align: center;
   font-size: 20px;
 }
+
 .leftInnerCont {
   height: 72vh;
   padding: 5%;
   margin: 10px;
   overflow: scroll;
 }
+
 .indexBox {
   width: 16vw;
   height: 4vh;
@@ -109,6 +127,7 @@ body {
   color: white;
   font-weight: bold;
 }
+
 .rightCont2 {
   height: 74vh;
   width: 58vw;
@@ -119,12 +138,17 @@ body {
   overflow: scroll;
   font-family: "Playfair Display", serif;
 }
+
 .rightCont2::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar */
+  display: none;
+  /* Hide the scrollbar */
 }
+
 .leftInnerCont::-webkit-scrollbar {
-  display: none; /* Hide the scrollbar */
+  display: none;
+  /* Hide the scrollbar */
 }
+
 .SmallLeftInnerCont {
   padding: 3px 0px;
   width: 15vw;
@@ -134,25 +158,30 @@ body {
   margin-bottom: 20px;
   margin-left: 10px;
 }
+
 .linkText {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.763);
   font-weight: bold;
 }
+
 .linkText:hover {
   color: white;
 }
+
 .SmallLeftInnerCont:hover {
   background-color: rgba(76, 76, 77, 0.288);
   font-weight: bolder;
   color: white;
 }
+
 .div1 {
   border: 3px solid white;
   height: 68vh;
   /* height: 100%; */
   padding: 20px;
 }
+
 .centerHeading {
   font-size: 30px;
   text-align: center;
@@ -161,11 +190,13 @@ body {
 .arrowPng {
   height: 100px;
 }
+
 .arrowAnchor {
   float: right;
   margin-top: 8%;
   margin-right: 10%;
 }
+
 .pngAnchor {
   margin-top: 10px;
 }
@@ -175,10 +206,12 @@ body {
   margin-left: 40%;
   margin-top: 10%;
 }
+
 p {
   font-family: "Poppins";
   /* font-weight: bold; */
 }
+
 .contPadding {
   padding-left: 5%;
 }
@@ -187,348 +220,520 @@ p {
   height: 200px;
   margin-left: 20%;
 }
+
 .variableCont {
   height: 90vh;
 }
+
 .varDecPng {
   height: 450px;
   margin-left: 15%;
 }
+
 .varDecDiv {
   height: 120vh;
 }
+
 .opvarDecPng {
   height: 100px;
   margin-left: 16%;
 }
+
 .DivCont {
   float: right;
 }
+
 .hoistingPng {
   height: 200px;
   margin-left: 30%;
 }
+
 .hoistingDiv {
   height: 140vh;
 }
+
 .varRulesDiv {
   height: 150vh;
 }
+
 .validCodePng {
   height: 250px;
   margin-left: 30%;
 }
-.blockSCopePng{
-    height: 250px;
-    margin-left: 32%;
-}
-.blockSCopeDiv{
-    height: 220vh;
-}
-.funcScopePng{
-    height: 250px;
-    margin-left: 27%;
-}
-.globalPng{
-    height: 250px;
-    margin-left: 27%;
-}
-.stringPng{
-    height: 200px;
-    margin-left: 25%;
-}
-.stringDiv{
-    height: 500vh;
-}
-.charPng{
-    height:250px;
-    margin-left: 12%;
 
-}
-.concatPng{
-    height:250px;
-    margin-left: 5%;
-}
-.indexOfPng{
-    height:250px;
-    margin-left: 2%;
+.blockSCopePng {
+  height: 250px;
+  margin-left: 32%;
 }
 
-.splicePng{
-    margin-left: 10%;
-    height: 250px;
+.blockSCopeDiv {
+  height: 220vh;
+}
 
+.funcScopePng {
+  height: 250px;
+  margin-left: 27%;
 }
-.subStringPng{
-  height: 210px;
-  margin-left: 11%;
-}
-.replacePng{
-  height: 210px;
 
+.globalPng {
+  height: 250px;
+  margin-left: 27%;
 }
-.toupperPng{
-  height: 200px;
-  margin-left: 6%;
-}
-.undefinedPng{
-  height: 200px;
-  margin-left:25% ;
-}
-.numberPng{
+
+.stringPng {
   height: 200px;
   margin-left: 25%;
 }
-.bigIntPng{
+
+.stringDiv {
+  height: 500vh;
+}
+
+.charPng {
+  height: 250px;
+  margin-left: 12%;
+
+}
+
+.concatPng {
+  height: 250px;
+  margin-left: 5%;
+}
+
+.indexOfPng {
+  height: 250px;
+  margin-left: 2%;
+}
+
+.splicePng {
+  margin-left: 10%;
+  height: 250px;
+
+}
+
+.subStringPng {
+  height: 210px;
+  margin-left: 11%;
+}
+
+.replacePng {
+  height: 210px;
+
+}
+
+.toupperPng {
+  height: 200px;
+  margin-left: 6%;
+}
+
+.undefinedPng {
+  height: 200px;
+  margin-left: 25%;
+}
+
+.numberPng {
+  height: 200px;
+  margin-left: 25%;
+}
+
+.bigIntPng {
   height: 300px;
   margin-left: 1%;
 }
-.booleanPng{
+
+.booleanPng {
   height: 180px;
   margin-left: 3%;
 }
-.booleanDiv{
+
+.booleanDiv {
   height: 90vh;
 }
-.nullPng{
+
+.nullPng {
   height: 400px;
   margin-left: 19%;
 }
-.nullDiv{
+
+.nullDiv {
   height: 90vh;
 }
-.objectPng{
-  height:650px;
+
+.objectPng {
+  height: 650px;
   margin-left: 1%;
 }
-.objectDiv{
+
+.objectDiv {
   height: 120vh;
 }
-.buitInDiv{
+
+.buitInDiv {
   height: 200vh;
 }
-.builtInObjPng{
+
+.builtInObjPng {
   height: 600px;
   width: 400px;
   margin-left: 25%;
 }
-.typeOfPng{
+
+.typeOfPng {
   height: 420px;
   margin-left: 19%;
 }
-.typeOfDiv{
-  height: 90vh;
-}
-.covHeading{
-  height: 8vh;
-}
-.typeConvPng{
-  height: 600px;
-  margin-left: 20%;
-}
-.typeConvDiv{
-  height: 220vh;
-}
-.arraysPng{
-  height:400px ;
-  margin-left: 25%;
-}
-.arraysDiv{
+
+.typeOfDiv {
   height: 90vh;
 }
 
-.explicitConvPng{
+.covHeading {
+  height: 8vh;
+}
+
+.typeConvPng {
+  height: 600px;
+  margin-left: 20%;
+}
+
+.typeConvDiv {
+  height: 220vh;
+}
+
+.arraysPng {
+  height: 400px;
+  margin-left: 25%;
+}
+
+.arraysDiv {
+  height: 90vh;
+}
+
+.explicitConvPng {
   height: 500px;
   margin-left: 20%;
 }
-.typeCastPng{
+
+.typeCastPng {
   height: 500px;
   margin-left: 8%;
 }
-.typeCastDiv{
-  height:120vh ;
+
+.typeCastDiv {
+  height: 120vh;
 }
-.jsonPng{
+
+.jsonPng {
   height: 580px;
   margin-left: 20%;
 }
-.jsonDiv{
+
+.jsonDiv {
   height: 115vh;
 }
-.valueOperator{
+
+.valueOperator {
   height: 7.5vh;
 }
-.valueoptDiv{
+
+.valueoptDiv {
   height: 180vh;
 }
-.comparisonPng{
+
+.comparisonPng {
   height: 600px;
   margin-left: 25%;
 }
-.comparisonDiv{
+
+.comparisonDiv {
   height: 120vh;
 }
-.forPng{
+
+.forPng {
   height: 320px;
   margin-left: 13%;
 }
-.dowhilePng{
+
+.dowhilePng {
   height: 300px;
   margin-left: 25%;
 }
-.whilePng{
+
+.whilePng {
   height: 400px;
   margin-left: 25%;
 }
-.whileDiv{
+
+.whileDiv {
   height: 90vh;
 }
-.forINPng{
+
+.forINPng {
   height: 400px;
   margin-left: 8%;
 }
-.forINDiv{
+
+.forINDiv {
   height: 90vh;
 }
-.forofPng{
+
+.forofPng {
   height: 400px;
   margin-left: 25%;
 }
-.forofDiv{
+
+.forofDiv {
   height: 90vh;
 }
-.breakContPng{
+
+.breakContPng {
   height: 500px;
   margin-left: 25%;
 }
-.breakContDiv{
+
+.breakContDiv {
   height: 90vh;
 }
-.ifPng{
+
+.ifPng {
   height: 300px;
   margin-left: 25%;
 }
-.ifElsePng{
+
+.ifElsePng {
   height: 500px;
   margin-left: 12%;
 }
-.ifElseDiv{
+
+.ifElseDiv {
   height: 100vh;
 }
-.switchPng{
+
+.switchPng {
   height: 500px;
   margin-left: 25%;
 
 }
-.switchDiv{
+
+.switchDiv {
   height: 112vh;
 }
-.exceptionDiv{
+
+.exceptionDiv {
   height: 120vh;
 }
-.throughPng{
+
+.throughPng {
   height: 300px;
   margin-left: 20%;
 }
-.exceptionPng{
+
+.exceptionPng {
   height: 390px;
 }
-.exceptionDiv{
+
+.exceptionDiv {
   height: 120vh;
 }
-.expleftDiv{
+
+.expleftDiv {
   height: 8vh;
 }
-.assignmentPng{
+
+.assignmentPng {
   height: 400px;
   margin-left: 12%;
 }
-.assignmentDiv{
+
+.assignmentDiv {
   height: 90vh;
 }
-.compPng{
+
+.compPng {
   height: 500px;
   margin-left: 25%;
 }
-.compDiv{
+
+.compDiv {
   height: 90vh;
 }
-.arithmeticPng{
+
+.arithmeticPng {
   height: 500px;
   margin-left: 15%;
 }
-.arithmeticDiv{
+
+.arithmeticDiv {
   height: 90vh;
 }
-.logicalPng{
+
+.logicalPng {
   height: 400px;
   margin-left: 25%;
 
 }
-.logicalDiv{
+
+.logicalDiv {
   height: 90vh;
 }
-.conactPng{
+
+.conactPng {
   height: 250px;
   margin-left: 18%;
 }
-.conditionPng{
+
+.conditionPng {
   height: 300px;
   margin-left: 15%;
 }
-.commaPng{
+
+.commaPng {
   height: 250px;
   margin-left: 10%;
 }
-.unaryPng{
+
+.unaryPng {
   height: 450px;
   margin-left: 22%;
 }
-.unaryDiv{
+
+.unaryDiv {
   height: 90vh;
 }
-.funcPng{
+
+.funcPng {
   height: 650px;
   margin-left: 15%;
 }
-.funcDiv{
+
+.funcDiv {
   height: 120vh;
 }
-.function2{
+
+.function2 {
   height: 200px;
   margin-left: 17%;
 }
-.arrowFuncPng{
+
+.arrowFuncPng {
   height: 320px;
   margin-left: 17%;
 }
-.builtFuncPng{
+
+.builtFuncPng {
   height: 600px;
   margin-left: 25%;
 }
-.builtFuncDiv{
+
+.builtFuncDiv {
   height: 120vh;
 }
-.defaultParamPng{
+
+.defaultParamPng {
   height: 300px;
   margin-left: 18%;
 }
-.restParamPng{
+
+.restParamPng {
   height: 300px;
   margin-left: 20%;
 }
-.setTimeoutPng{
+
+.setTimeoutPng {
   height: 300px;
   margin-left: 20%;
 }
-.setIntervalPng{
+
+.setIntervalPng {
   height: 320px;
 
 }
-.fetch{
+
+.fetch {
   height: 450px;
   margin-left: 15%;
 }
-.fetchDiv{
+
+.fetchDiv {
   height: 90vh;
+}
+
+.projectText {
+  margin-left: 45%;
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.pCard {
+  height: 350px;
+  min-width: 290px;
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.849);
+
+}
+.pCard h2{
+  color: white;
+}
+.projectCards {
+  margin-top: 15px;
+  margin: 20px;
+  display: flex;
+  overflow-x: scroll;
+  width: 98%;
+  height: 70%;
+}
+
+.container3 {
+  height: 80vh;
+  background-color: aliceblue;
+  margin: 50px 100px;
+  border-radius: 50px;
+  border: 5px solid aliceblue;
+  justify-content: space-between;
+
+}
+.projectCards::-webkit-scrollbar {
+   display: none;
+  /* Hide the scrollbar */
+}
+.imgCont{
+  margin: 10px;
+  height: 70%;
+  width: 93%;
+  border-radius: 10px;
+}
+.pCardContent{
+  height: 28%;
+  margin: 2% 3%;
+
+}
+.cardBtn{
+  height: 40px;
+  width: 80px;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;;
+}
+.cardBtn:hover{
+  background-color: #f97000;
+  color: white;
+}
+.btnCont{
+  display: flex;
+  justify-content: space-around;
+}
+.calculatorPng{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 }

@@ -10,5 +10,5 @@ const num = [ 1,2,3];
 addNum = num.reduce (function (accumulator , currentVal) { 
    return  accumulator = accumulator + currentVal ;
    
-} ,0)
+},0 )
 console.log(addNum);
