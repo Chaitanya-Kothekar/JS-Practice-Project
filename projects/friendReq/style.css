@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    margin: 10%;
+    text-align: center;
+}
+.profile{
+    height: 300px;
+    width: 280px;
+    margin-left: 10px;
+    object-fit: cover ;
+    object-position: center;
+
+}
+h1{
+    margin: 2px;
+}
+h3{
+    color: red;
+    margin: 9px;
+    font-size: 30px;
+}
+#btnContainer{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+#Add{
+    margin-left: 10px;
+    background-color: aquamarine;
+    padding: 5%;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(2, 52, 35);
+    width: 300px;
+    font-weight: bolder;
+}
