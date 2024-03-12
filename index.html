@@ -212,6 +212,60 @@
           <a href="#58" class="leftText linkText">
             <div class="SmallLeftInnerCont">Fetch</div>
           </a>
+          <a href="#59" class="leftText linkText">
+            <div class="SmallLeftInnerCont">XMLHttpRequest</div>
+          </a>
+          <a href="#60" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Prototypal Inheritance</div>
+          </a>
+          <a href="#61" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Object Prototype</div>
+          </a>
+          <a href="#62" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Keyed Collections</div>
+          </a>
+          <a href="#63" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Map</div>
+          </a>
+          <a href="#64" class="leftText linkText">
+            <div class="SmallLeftInnerCont">WeakMap</div>
+          </a>
+          <a href="#65" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Set</div>
+          </a>
+          <a href="#66" class="leftText linkText">
+            <div class="SmallLeftInnerCont">WeakSet</div>
+          </a>
+          <a href="#67" class="leftText linkText">
+            <div class="SmallLeftInnerCont">IIFE</div>
+          </a>
+          <a href="#68" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Arguments object</div>
+          </a>
+          <a href="#69" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Scope and function stack</div>
+          </a>
+          <a href="#70" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Recursion</div>
+          </a>
+          <a href="#71" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Lexical scoping</div>
+          </a>
+          <a href="#72" class="leftText linkText">
+            <div class="SmallLeftInnerCont">Closures</div>
+          </a>
+          <a href="#" class="leftText linkText">
+            <div class="SmallLeftInnerCont"></div>
+          </a>
+          <a href="#" class="leftText linkText">
+            <div class="SmallLeftInnerCont"></div>
+          </a>
+          <a href="#" class="leftText linkText">
+            <div class="SmallLeftInnerCont"></div>
+          </a>
+          <a href="#" class="leftText linkText">
+            <div class="SmallLeftInnerCont"></div>
+          </a>
           <a href="#" class="leftText linkText">
             <div class="SmallLeftInnerCont"></div>
           </a>
@@ -1011,10 +1065,168 @@
         <div id="58" class="div1 fetchDiv">
           <div class="contPadding">
             <h2 class="centerHeading">Fetch</h2><br>
-            <p>The fetch() method in JavaScript is used to request to the server and load the information on the webpages. The request can be of any APIs that return the data of the format JSON or XML. This method returns a promise.</p><br>
+            <p>The fetch() method in JavaScript is used to request to the server and load the information on the
+              webpages. The request can be of any APIs that return the data of the format JSON or XML. This method
+              returns a promise.</p><br>
             <img class="fetch" src="./images/fetch.png" alt="">
           </div>
         </div>
+        <div id="59" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">XMLHttpRequest</h2><br>
+            <p>XMLHttpRequest (XHR) is a built-in browser object that can be used to interact with server. XHR allows
+              you to update data without having to reload a web page. Despite the word XML in its name, XHR not only
+              used to retrieve data with XML format, we can use it with any type of data, like JSON, file(s), and much
+              more.</p><br>
+            <img class="xmlPng" src="./images/xmlHttpReq.png" alt="">
+          </div>
+        </div>
+        <div id="60" class="div1 protypeDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Prototypal Inheritance</h2><br>
+            <p>
+              Inheritance in the context of prototyping typically refers to how objects can inherit properties and
+              behaviors from other objects in JavaScript. In JavaScript, objects can inherit from other objects through
+              a mechanism called the prototype chain.</p><br>
+            <img class="protypePng" src="./images/prototype.png" alt="">
+          </div>
+        </div>
+        <div id="61" class="div1 objProtoDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Object Prototype</h2><br>
+            <p>Each JavaScript object has an internal link to another object called its prototype. When you try to
+              access a property or method of an object, JavaScript first looks for it directly on the object. If it's
+              not found, it looks for it in the object's prototype, and if it's still not found, it continues up the
+              prototype chain until it reaches the Object.prototype.</p><br>
+            <img class="objProtoPng" src="./images/objProto.png" alt="">
+          </div>
+        </div>
+        <div id="62" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Keyed Collections</h2><br>
+            <p>
+              In JavaScript, there are several built-in keyed collections that allow you to store data with keys for
+              efficient retrieval. These collections are useful for various data manipulation tasks and provide
+              different features and performance characteristics. Here are the main keyed collections in JavaScript:</p>
+            <br>
+            <ul>
+              <li>Object</li>
+              <li>Map</li>
+              <li>Weak map</li>
+              <li>Set</li>
+              <li>WeakSet</li>
+            </ul>
+          </div>
+        </div>
+        <div id="63" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Map</h2><br>
+            <p>The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.</p><br>
+          </div>
+          <img class="mapPng" src="./images/map.png" alt="">
+        </div>
+        <div id="64" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">WeakMap</h2><br>
+            <p>In JavaScript, there's a built-in data structure called WeakMap. It's similar to a Map but allows only objects as keys and holds weak references to those keys. This means that if there are no other references to a key object, it can be garbage collected. It's useful for scenarios where you want to associate some data with objects without preventing those objects from being garbage collected when they are no longer needed.</p><br>
+            <img class=weakMapPng src="./images/weakMap.png" alt="">
+          </div>
+          <img class="" src="" alt="">
+        </div>
+        <div id="65" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Set</h2><br>
+            <p>
+              In JavaScript, the Set object is a collection of unique values. It allows you to store distinct values of any type, whether primitive values or object references.</p><br>
+              <img class="setPng" src="./images/set.png" alt="">
+          </div>
+          <img class="" src="" alt="">
+        </div>
+        <div id="66" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">WeakSet</h2><br>
+            <p>A WeakSet is a built-in object in JavaScript that allows you to store a collection of unique objects. Similar to Set, which is another built-in object in JavaScript, WeakSet only stores objects and not other types like strings or numbers. However, there are some key differences between WeakSet and Set:</p><br>
+            <img class="weakSetPng" src="./images/weakSet.png" alt="">
+          </div>
+        </div>
+        <div id="67" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">IIFE</h2><br>
+            <p>Immediately-Invoked Function Expression is a function that is executed immediately after it is created.</p><br>
+            <img class="iifePng" src="./images/iife.png" alt="">
+          </div>
+        </div>
+        <div id="68" class="div1 mapDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Arguments object</h2><br>
+            <p>The arguments object is an Array-like object accessible inside functions that contains the values of the arguments passed to that function, available within all non-arrow functions. You can refer to a function’s arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry’s index at 0. But, in modern code, rest parameters should be preferred</p><br>
+            <img class="argObjPng" src="./images/argObjPng.png" alt="">
+          </div>
+        </div>
+        <div id="69" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Scope and function stack</h2><br>
+            <p>Scope<br><br>
+              A space or environment in which a particular variable or function can be accessed or used. Accessibility of this variable or function depends on where it is defined.<br><br>
+              
+              JavaScript has the following kinds of scopes:<br><br>
+              
+              Global scope: The default scope for all code running in script mode.<br>
+              Module scope: The scope for code running in module mode.<br>
+              Function scope: The scope created with a function.<br>
+              Block scope: The scope created with a pair of curly braces (a block).</p><br>
+
+              <h3>Function Stack (Call stack)</h3><br>
+                  The function stack is how the interpreter keeps track of its place in a script that calls multiple functions, like which function is currently executing and which functions within that function are being called.
+          </div>
+        </div>
+        <div id="70" class="div1 recursionDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Recursion</h2><br>
+            <p>One of the most powerful and elegant concept of functions, recursion is when a function invokes itself. Such a function is called a recursive function. As recursion happens, the underlying code of the recursive function gets executed again and again until a terminating condition, called the base case, gets fulfilled. As you dive into the world of algorithms, you’ll come across recursion in many many instances.</p><br>
+            <img class="recursionPng" src="./images/recursiveFunc.png" alt="">
+          </div>
+        </div>
+        <div id="71" class="div1 lexicalDiv">
+          <div class="contPadding">
+            <h2 class="centerHeading">Lexical scoping</h2><br>
+            <p>
+              Lexical scoping is a fundamental concept in JavaScript that determines how variable names are resolved during the runtime of a program. It refers to the way in which the scope of variables is determined by the location of the variables' declarations in the source code.<br><br>
+              
+              In JavaScript, the scope of a variable is defined by its location within the code, specifically by its surrounding code blocks or functions. When a variable is declared inside a function, it is accessible only within that function (and any nested functions). This concept is often referred to as "function scope".</p><br>
+              <img class="lexicalPng" src="./images/lexical.png" alt="">
+          </div>
+        </div>
+        <div id="72" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Closures</h2><br>
+            <p>
+              Closures and lexical scoping are closely related concepts in programming languages, especially in languages like JavaScript.</p><br>
+              <img class="lexicalPng" src="./images/lexical.png" alt="">
+          </div>
+        </div>
+        <div id="73" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading">Bitwise operators</h2><br>
+            <p>Bitwise operators treat arguments as 32-bits (zeros & ones) and work on the level of their binary representation. Ex. Decimal number 9 has a binary representation of 1001. Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values.<br><br>
+
+              Bitwise operators in JavaScript are as follows:<br><br>
+              
+              & (AND)<br>
+              | (OR)<br>
+              ^ (XOR)<br>
+              ~ (NOT)<br>
+              << (Left SHIFT)<br>
+              >> (Right SHIFT)<br>
+              >>> (Zero-Fill Right SHIFT)</p><br>
+          </div>
+        </div>
+        <div id="" class="div1 ">
+          <div class="contPadding">
+            <h2 class="centerHeading"></h2><br>
+            <p></p><br>
+          </div>
+        </div>
         <div id="" class="div1 ">
           <div class="contPadding">
             <h2 class="centerHeading"></h2><br>
@@ -1027,10 +1239,12 @@
             <p></p><br>
           </div>
         </div>
+
+
+        
       </div>
 
     </div>
-    
   </div>
 
   <div class="container3">
@@ -1038,32 +1252,44 @@
     <div class="projectCards">
       <div class="pCard">
         <div class="imgCont"><img class="calculatorPng" src="./images/calculator.png" alt=""></div>
-        <div><h2>Calculator</h2></div>
+        <div>
+          <h2>Calculator</h2>
+        </div>
         <div class="pCardContent">
           <div class="btnCont">
-            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/Calculator/'" class="cardBtn">Live</button>
-            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/Calculator' " class="cardBtn">Github</button>
+            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/Calculator/'"
+              class="cardBtn">Live</button>
+            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/Calculator' "
+              class="cardBtn">Github</button>
           </div>
-         
+
         </div>
       </div>
       <div class="pCard">
         <div class="imgCont"><img class="calculatorPng" src="./images/addFriend.png" alt=""></div>
-        <div><h2>Add Friend</h2></div>
+        <div>
+          <h2>Add Friend</h2>
+        </div>
         <div class="pCardContent">
           <div class="btnCont">
-            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/AddFriend/'" class="cardBtn">Live</button>
-            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/AddFriend' " class="cardBtn">Github</button>
+            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/AddFriend/'"
+              class="cardBtn">Live</button>
+            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/AddFriend' "
+              class="cardBtn">Github</button>
           </div>
         </div>
       </div>
       <div class="pCard">
         <div class="imgCont"><img class="calculatorPng" src="./images/guessing.png" alt=""></div>
-        <div><h2>Guessing Game</h2></div>
+        <div>
+          <h2>Guessing Game</h2>
+        </div>
         <div class="pCardContent">
           <div class="btnCont">
-            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/GuessingGame/'" class="cardBtn">Live</button>
-            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/GuessingGame' " class="cardBtn">Github</button>
+            <button onclick="window.location.href='https://chaitanya-kothekar.github.io/GuessingGame/'"
+              class="cardBtn">Live</button>
+            <button onclick="window.location.href='https://github.com/Chaitanya-Kothekar/GuessingGame' "
+              class="cardBtn">Github</button>
           </div>
         </div>
       </div>

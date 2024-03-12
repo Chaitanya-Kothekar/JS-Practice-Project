@@ -676,9 +676,11 @@ p {
   background-color: rgba(0, 0, 0, 0.849);
 
 }
-.pCard h2{
+
+.pCard h2 {
   color: white;
 }
+
 .projectCards {
   margin-top: 15px;
   margin: 20px;
@@ -697,22 +699,26 @@ p {
   justify-content: space-between;
 
 }
+
 .projectCards::-webkit-scrollbar {
-   display: none;
+  display: none;
   /* Hide the scrollbar */
 }
-.imgCont{
+
+.imgCont {
   margin: 10px;
   height: 70%;
   width: 93%;
   border-radius: 10px;
 }
-.pCardContent{
+
+.pCardContent {
   height: 28%;
   margin: 2% 3%;
 
 }
-.cardBtn{
+
+.cardBtn {
   height: 40px;
   width: 80px;
   padding: 1%;
@@ -722,18 +728,146 @@ p {
   border: none;
   font-weight: bold;
   font-size: 20px;
-  cursor: pointer;;
+  cursor: pointer;
+  ;
 }
-.cardBtn:hover{
+
+.cardBtn:hover {
   background-color: #f97000;
   color: white;
 }
-.btnCont{
+
+.btnCont {
   display: flex;
   justify-content: space-around;
 }
-.calculatorPng{
+
+.calculatorPng {
   height: 100%;
   width: 100%;
   border-radius: 20px;
+}
+
+.xmlPng {
+  height: 350px;
+  margin-left: 14%;
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    height: 64vh;
+    margin: 10px 10px;
+    align-items: center;
+    align-items: center;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 10px 10px;
+  }
+
+  .jsImg {
+    height: 90px;
+    width: 90px;
+    margin-left: -41vw;
+    margin-top: 10vh;
+    justify-content: center;
+  }
+
+  .contText {
+    margin: 0vh;
+    font-size: 50px;
+    margin-left: -7%;
+    margin-right: 0vw;
+    position: absolute;
+    margin-top: -53vh;
+  }
+
+  .githubDiv {
+    position: absolute;
+    margin-top: -275px;
+    height: 80px;
+  }
+
+  .arrowPng {
+    margin-left: -23px;
+    margin-top: -197px;
+    position: absolute;
+    height: 100px;
+  }
+
+  .github {
+    position: absolute;
+    margin-left: -12px;
+    margin-top: -26px;
+  }
+}
+
+.protypePng {
+  height: 500px;
+  width: 400px;
+  margin-left: 24%;
+}
+
+.protypeDiv {
+  height: 95vh;
+}
+
+.xmlPng {
+  height: 300px;
+}
+
+.objProtoPng {
+  height: 350px;
+  margin-left: 15%;
+}
+.objProtoDiv {
+  height: 80vh;
+}
+.mapPng{
+  height: 550px;
+  margin-left: 25%;
+}
+.mapDiv{
+  height: 98vh;
+}
+.weakMapPng{
+  height: 390px;
+  margin-left: 19%;
+}
+.setPng{
+  height: 450px;
+  margin-left: 20%;
+}
+.iifePng{
+  height: 350px;
+  margin-left: 12%;
+}
+.argObjPng{
+  height: 450px;
+  margin-left: 20%;
+}
+.weakSetPng{
+  height: 500px;
+  margin-left: 12%;
+}
+.recursionPng{
+  height: 400px;
+  margin-left: 11%;
+}
+.recursionDiv{
+  height: 90vh;
+}
+.lexicalPng{
+  height: 350px;
+margin-left: 25%;
+}
+.lexicalDiv{
+  height: 90vh;
 }
